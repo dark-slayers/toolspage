@@ -1,1 +1,1 @@
-del E:\GitProject\toolspage\dist /S/Q
+del .\dist /S/Q

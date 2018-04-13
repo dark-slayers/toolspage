@@ -1,11 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Button from './ui/base/Button.jsx';
-class PButton extends Button {
-  handleClick = () => {
-    location = this.props.pageUrl;
-  }
-}
+import B from './ui/base/PageButton.jsx';
+
 class IndexPage extends React.Component {
   render() {
     const line = {
@@ -13,7 +9,14 @@ class IndexPage extends React.Component {
       justifyContent: 'center'
     };
     return (<div>
-      <div style={line}><PButton text="项目工具"/><PButton text="Java工具" pageUrl="./java.html"/></div>
+      <div style={line}>
+        <B text="项目工具" pageUrl="./java.html"/>
+        <B text="Java工具" pageUrl="./java.html"/>
+      </div>
+      <div style={line}>
+        <B text="host工具" pageUrl="./host.html"/>
+        <B text="Java工具" pageUrl="./java.html"/>
+      </div>
     </div>);
   }
 }
