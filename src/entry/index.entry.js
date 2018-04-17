@@ -14,9 +14,6 @@ const list = [
   }, {
     text: 'host工具',
     url: './host.html'
-  }, {
-    text: 'Java工具',
-    url: './java.html'
-  }
+  },
 ];
 ReactDOM.render(<BasePage list={list}/>, document.getElementById('main-ui'));
