@@ -6,7 +6,7 @@ class PButton extends Button {
     location = this.props.pageUrl;
   }
 }
-class JavaPage extends React.Component {
+class JavaPage extends BasePage {
   render() {
     const line = {
       display: 'flex',
