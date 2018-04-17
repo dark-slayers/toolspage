@@ -13,12 +13,10 @@ class ReactPage extends EmptyForm {
   };
   handleClick = () => {
     AjaxUtil.post(URL.reactSessionFile, this.state,function(json){
-      var url = URL.reactZipFile;
-      var a = window.document.createElement("a");
+      const a = window.document.createElement("a");
       window.document.body.appendChild(a);
       a.style = "display: none";
-      a.href = url;
-      // a.download = fileName;
+      a.href = URL.reactZipFile;
       a.click();
     });
   }
