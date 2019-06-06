@@ -6,8 +6,8 @@ import PageTitle from '../jsx/ui/base/PageTitle.jsx';
 ReactDOM.render(<PageTitle title="项目工具库"/>, document.getElementById('page-title'));
 const list = [
   {
-    text: 'Eclipse项目工具',
-    url: './project/eclipse.html'
+    text: 'Springboot项目工具',
+    url: './project/springboot.html'
   }, {
     text: 'React项目工具',
     url: './project/react.html'

@@ -4,6 +4,7 @@ const URL={
   },
   reactSessionFile:'/project/react/sessionfile',
   reactZipFile:'/project/react/zipfile',
+  springbootUpdate:'/project/springboot/config',
 };
 
 export default URL;
